@@ -1,0 +1,74 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Table base styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+caption {
+  caption-side: top;
+  margin-bottom: 10px;
+  font-size: 1em;
+  text-align: left;
+}
+
+/* Header row styling */
+thead th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+/* Left-side headers ("row headers") */
+tbody th {
+  background-color: #f2f2f2;
+  color: #000;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+/* Data cells */
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+/* Special group headers like "Jovian planets", etc. */
+.group-header {
+  background-color: #e0e0e0;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+/* Column highlight for emphasis (optional) */
+colgroup col:nth-child(3) {
+  border-left: 2px solid black;
+}
+
+/* Link styling */
+a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
